@@ -4,6 +4,8 @@
  */
 package prograblckproyecto;
 
+import java.util.Scanner;
+
 /**
  *
  * @author USUARIO
@@ -15,6 +17,9 @@ public class PrograBlckproyecto {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+      Game pantalla = new Game();
+      pantalla.setVisible(true);
+      pantalla.setLocationRelativeTo(null);
+      
     }
-    
 }
